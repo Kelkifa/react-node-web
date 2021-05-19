@@ -1,6 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './components/test';
+
 const Index = () => {
     return <div>WELCOME TO REACT APP NEW2 !</div>;
 };
-ReactDOM.render(<Index />, document.getElementById('app'));
+ReactDOM.render(
+    <div>
+        <Index />
+        <Test />
+    </div>
+    , document.getElementById('app')
+);
